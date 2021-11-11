@@ -12,7 +12,7 @@
 		<meta property="og:description" content="A sample static receipe web app built using pure html/css" />
 		<meta property="og:type" content="website" />
 
-		<title>Recipe</title>
+		<title>Untitled</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
@@ -20,9 +20,9 @@
 			<!-- 6th section -->
 			<section class="features">
 				<header class="features__header">
-					<span class="features__header-title--sm">Features</span>
-					<h1 class="features__header-title">All-in-one finance for any business</h1>
-					<p class="features__header-title--md">
+					<span class="features__header__title--sm">Features</span>
+					<h1 class="features__header__title">All-in-one finance for any business</h1>
+					<p class="features__header__title--md">
 						Get a deposit account, credit card, and spend management software—in one refreshingly easy solution. No fees or
 						minimums.
 					</p>
@@ -63,14 +63,14 @@
 			<!-- 7th section -->
 			<section class="post">
 				<header class="post__header">
-					<span class="post__header-title--sm">Our blog</span>
+					<span class="post__title--sm">Our blog</span>
 					<button class="button button--primary">View all posts</button>
-					<h1 class="post__header-title">Latest blog posts</h1>
-					<p class="post__header-title--md">Tool and strategies modern teams need to help their companies grow.</p>
+					<h1 class="post__title">Latest blog posts</h1>
+					<p class="post__title--md">Tool and strategies modern teams need to help their companies grow.</p>
 				</header>
 				<section class="posts">
 					<article class="post">
-						<figure>
+						<figure class="post__figure">
 							<img class="post__image" src="./assets/post11.png" alt="post1" />
 							<figcaption class="post__caption">Design</figcaption>
 						</figure>
@@ -82,15 +82,15 @@
 							How do you create compelling presentations that wow your colleagues and impress your managers?
 						</p>
 						<div class="post__footer">
-							<figure>
-								<img class="post__footer-avatar" src="./assets/post12.png" alt="Avatar" />
+							<figure class="post__footer__figure">
+								<img class="post__footer__avatar" src="./assets/post12.png" alt="Avatar" />
 							</figure>
-							<span class="post__footer-title">Olivia Rhye</span>
-							<p class="post__footer-date">20 Jan 2022</p>
+							<span class="post__footer__title">Olivia Rhye</span>
+							<p class="post__footer__date">20 Jan 2022</p>
 						</div>
 					</article>
 					<article class="post">
-						<figure>
+						<figure class="post__figure">
 							<img class="post__image" src="./assets/post21.png" alt="post1" />
 							<figcaption class="post__caption">Product</figcaption>
 						</figure>
@@ -102,8 +102,8 @@
 							Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.
 						</p>
 						<div class="post__footer">
-							<figure>
-								<img class="post__footer-avatar" src="./assets/post22.png" alt="avatar" />
+							<figure class="post__footer__figure">
+								<img class="post__footer__avatar" src="./assets/post22.png" alt="avatar" />
 							</figure>
 							<span class="post__footer-title">Phoenix Baker</span>
 							<p class="post__footer-date">19 Jan 2022</p>
@@ -122,11 +122,11 @@
 							The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.
 						</p>
 						<div class="post__footer">
-							<figure>
-								<img class="post__footer-avatar" src="./assets/post32.png" alt="avatar" />
+							<figure class="post__footer__figure">
+								<img class="post__footer__avatar" src="./assets/post32.png" alt="avatar" />
 							</figure>
-							<span class="post__footer-title">Lana Steiner</span>
-							<p class="post__footer-date">18 Jan 2022</p>
+							<span class="post__footer__title">Lana Steiner</span>
+							<p class="post__footer__date">18 Jan 2022</p>
 						</div>
 					</article>
 				</section>
@@ -135,8 +135,8 @@
 			<section class="analytics">
 				<article class="stats">
 					<header class="stats__header">
-						<h1 class="stats__header-title">Join over 4,000+ startups growing with Untitled</h1>
-						<p class="stats__header-title--md">Start your 30-day free trial today.</p>
+						<h1 class="stats__title">Join over 4,000+ startups growing with Untitled</h1>
+						<p class="stats__title--md">Start your 30-day free trial today.</p>
 					</header>
 					<div class="actions">
 						<button class="button button--secondary">Learn more</button>
@@ -173,31 +173,29 @@
 			<!-- 9th section -->
 			<section class="contact">
 				<article class="contact__content">
-					<h1 class="contact__content-header">Sign up for our newsletter</h1>
-					<p class="contact__content-description">Be the first to know about releases and industry news and insights.</p>
+					<h1 class="contact__title">Sign up for our newsletter</h1>
+					<p class="contact__title--md">Be the first to know about releases and industry news and insights.</p>
 				</article>
 				<article class="contact__actions">
-					<div class="contact__actions-input">
-						<input type="text" disabled placeholder="Enter your email" />
-						<button class="button button--primary">Subscribe</button>
-						<p contact__actions-privacy>We care about your data in our privacy policy</p>
-					</div>
+					<input class="contact__actions__input" type="text" disabled placeholder="Enter your email" />
+					<button class="button button--primary">Subscribe</button>
+					<p class="contact__actions__privacy">We care about your data in our privacy policy</p>
 				</article>
 			</section>
 			<!-- footer -->
 			<footer>
 				<header class="footer__header">
-					<h1 class="footer__header-title">Start your 30-day free trial</h1>
+					<h1 class="footer__title">Start your 30-day free trial</h1>
 					<button class="button button--secondary">Learn more</button>
 					<button class="button button--primary">Get started</button>
 				</header>
 				<p class="footer__stats">Join over 4,000+ startups already growing with Untitled.</p>
-				<hr class="footer__line-break" />
+				<hr class="footer__lineBreak" />
 				<section class="footer__info">
 					<article>
 						<img class="footer__logo" src="./assets/logo.png" alt="logo" />
-						<span class="footer__logo-title">Untitled UI</span>
-						<p class="footer__info-description">Design amazing digital experiences that create more happy in the world.</p>
+						<span class="footer__logoTitle">Untitled UI</span>
+						<p class="footer__infoDescription">Design amazing digital experiences that create more happy in the world.</p>
 					</article>
 					<article>
 						<span class="footer__info-link-title">Product</span>
@@ -237,17 +235,17 @@
 						<span class="footer__info-link">Contact</span>
 					</article>
 				</section>
-				<hr class="footer__line-break" />
+				<hr class="footer__lineBreak" />
 				<article class="footer__social">
 					<header>
-						<span class="footer__social-copyright">© 2077 Untitled UI. All rights reserved.</span>
-						<div class="footer__social-icons">
-							<img src="./assets/twitter.png" alt="Twitter" class="footer__social-icon" />
-							<img src="./assets/linkedin.png" alt="LinkedIn" class="footer__social-icon" />
-							<img src="./assets/facebook.png" alt="Facebook" class="footer__social-icon" />
-							<img src="./assets/github.png" alt="GitHub" class="footer__social-icon" />
-							<img src="./assets/angellist.png" alt="AngelList" class="footer__social-icon" />
-							<img src="./assets/newsletter.png" alt="NewsLetter" class="footer__social-icon" />
+						<span class="footer__socialCopyright">© 2077 Untitled UI. All rights reserved.</span>
+						<div class="footer__socialIcons">
+							<img src="./assets/twitter.png" alt="Twitter" class="footer__socialIcon" />
+							<img src="./assets/linkedin.png" alt="LinkedIn" class="footer__socialIcon" />
+							<img src="./assets/facebook.png" alt="Facebook" class="footer__socialIcon" />
+							<img src="./assets/github.png" alt="GitHub" class="footer__socialIcon" />
+							<img src="./assets/angellist.png" alt="AngelList" class="footer__socialIcon" />
+							<img src="./assets/newsletter.png" alt="NewsLetter" class="footer__socialIcon" />
 						</div>
 					</header>
 				</article>
