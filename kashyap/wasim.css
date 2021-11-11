@@ -1,0 +1,17 @@
+:root {
+	--primary-color: #7f56d9;
+	--white-color: #ffffff;
+	--grey-color: #d0d5dd;
+	--background-color: #f9fafb;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--background-color);
+}
+
+.container {
+	padding: 0px 80px;
+}
