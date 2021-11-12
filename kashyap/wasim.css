@@ -15,3 +15,25 @@
 .container {
 	padding: 0px 80px;
 }
+
+.footer__info {
+	display: flex;
+}
+
+.footer__info__link-container {
+	display: grid;
+	margin-left: auto;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.footer__info__link--title {
+	font-weight: bold;
+}
+
+.footer__social {
+	display: flex;
+}
+
+.footer__social-icons {
+	margin-left: auto;
+}
