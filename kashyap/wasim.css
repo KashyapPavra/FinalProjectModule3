@@ -134,6 +134,10 @@ input {
 	grid-template-columns: repeat(5, 1fr);
 }
 
+.footer__description {
+	margin: 1.5rem 0;
+}
+
 .footer__info__link--title {
 	font-weight: bold;
 }
