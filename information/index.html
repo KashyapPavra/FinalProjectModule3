@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled UI</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo-wrap">
+            <img class="logo" src="data:," alt="Logo" />
+            <span class="logo-title">Untitled UI</span>
+        </div>
+        <input type="search" placeholder="Search" />
+        <nav>
+            <ul>
+                <li>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 22V12H15V22M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#D6BBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <select name="home" id="home">
+                        <option value="main-home">Home</option>
+                        <option value="deleted">Deleted data</option>
+                    </select>
+                </li>
+                <li>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 20V10M12 20V4M6 20V14" stroke="#D6BBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <select name="dashboard" id="dashboard">
+                        <option value="current">Dashboard</option>
+                        <option value="account">Account dashboard</option>
+                        <option value="archive">Archived dashboard</option>
+                    </select>
+                </li>
+                <li>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 17L12 22L22 17M2 12L12 17L22 12M12 2L2 7L12 12L22 7L12 2Z" stroke="#D6BBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <select name="projects" id="projects">
+                        <option value="current">Projects</option>
+                        <option value="upcoming">Upcoming projects</option>
+                        <option value="archive">Archive</option>
+                    </select>
+                </li>
+                <li>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 11L12 14L22 4M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" stroke="#D6BBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <select name="tasks" id="tasks">
+                        <option value="current">Tasks</option>
+                        <option value="upcoming">Upcoming tasks</option>
+                        <option value="archive">Archived tasks</option>
+                    </select>
+                </li>
+                <li>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 15C4 15 5 14 8 14C11 14 13 16 16 16C19 16 20 15 20 15V3C20 3 19 4 16 4C13 4 11 2 8 2C5 2 4 3 4 3V15ZM4 15V22" stroke="#D6BBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <select name="reporting" id="reporting">
+                        <option value="reporting">Reporting</option>
+                        <option value="upcoming">Upcoming projects</option>
+                    </select>
+                </li>
+                <li>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.3503 17.623 3.8507 18.1676 4.55231C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7Z" stroke="#D6BBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <select name="users" id="users">
+                        <option value="new">New users</option>
+                        <option value="current">Current users</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+        <div class="sidebar-bottom">
+            <ul>
+                <li>Support</li>
+                <li>Settings</li>
+            </ul>
+            <hr />
+            <div class="profile-widget">
+                <img class="avatar" src="./assets/Avatar.png" alt="Avatar" />
+                <div class="wrap">
+                    <h6>Olivia Rhye</h6>
+                    <span>olivia@untitledui.com</span>
+                </div>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 25.5H12.1667C11.7246 25.5 11.3007 25.3244 10.9882 25.0118C10.6756 24.6993 10.5 24.2754 10.5 23.8333V12.1667C10.5 11.7246 10.6756 11.3007 10.9882 10.9882C11.3007 10.6756 11.7246 10.5 12.1667 10.5H15.5M21.3333 22.1667L25.5 18M25.5 18L21.3333 13.8333M25.5 18H15.5" stroke="#D6BBFB" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+        </div>
+    </aside>
+    <header>
+        <nav class="breadcrumb">
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 18.3332V9.99984H11.5V18.3332M1.5 7.49984L9 1.6665L16.5 7.49984V16.6665C16.5 17.1085 16.3244 17.5325 16.0118 17.845C15.6993 18.1576 15.2754 18.3332 14.8333 18.3332H3.16667C2.72464 18.3332 2.30072 18.1576 1.98816 17.845C1.67559 17.5325 1.5 17.1085 1.5 16.6665V7.49984Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Current
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Messages
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="wrap">
+            <h1>Messages</h1>
+            <button>View project</button>
+        </div>
+    </header>
+    <main>
+        <div class="chat">
+            <div class="current-user">
+                <img class="avatar" alt="Avatar" src="./assets/Avatar-chat.png" />
+                <div>
+                    <h6>Mollie Hall</h6>
+                    <span class="date">Thursday 11:40am</span>
+                </div>
+                <div class="message">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 18C2 9.16344 9.16344 2 18 2C26.8366 2 34 9.16344 34 18C34 26.8366 26.8366 34 18 34C9.16344 34 2 26.8366 2 18Z" fill="#F4EBFF"/>
+                        <path d="M18.6667 11.3335H14.0001C13.6465 11.3335 13.3073 11.474 13.0573 11.724C12.8072 11.9741 12.6667 12.3132 12.6667 12.6668V23.3335C12.6667 23.6871 12.8072 24.0263 13.0573 24.2763C13.3073 24.5264 13.6465 24.6668 14.0001 24.6668H22.0001C22.3537 24.6668 22.6928 24.5264 22.9429 24.2763C23.1929 24.0263 23.3334 23.6871 23.3334 23.3335V16.0002M18.6667 11.3335L23.3334 16.0002M18.6667 11.3335V16.0002H23.3334" stroke="#7F56D9" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 32C10.268 32 4 25.732 4 18H0C0 27.9411 8.05887 36 18 36V32ZM32 18C32 25.732 25.732 32 18 32V36C27.9411 36 36 27.9411 36 18H32ZM18 4C25.732 4 32 10.268 32 18H36C36 8.05887 27.9411 0 18 0V4ZM18 0C8.05887 0 0 8.05887 0 18H4C4 10.268 10.268 4 18 4V0Z" fill="#F9F5FF"/>
+                    </svg>                        
+                    <div class="wrap">
+                        <p class="message-text">
+                            Tech requirements.pdf
+                        </p>
+                        <span>1.2MB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="you">
+                <div>
+                    <h6>You</h6>
+                    <span class="date">Thursday 11:40am</span>
+                </div>
+                <p class="message-text">
+                    Awesome thanks! I'll book at this today.
+                </p>
+            </div>
+            <div class="current-user">
+                <img class="avatar" alt="Avatar" src="./assets/Avatar-chat.png" />
+                <div>
+                    <h6>Mollie Hall</h6>
+                    <span class="date">Thursday 11:40am</span>
+                </div>
+                <p class="message-text">
+                    No rush though
+                </p>
+                <div class="reactions">
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            <div class="current-user">
+                <div>
+                    <h6>Mollie Hall</h6>
+                    <span class="date">Thursday 11:40am</span>
+                </div>
+                <p class="message-text">
+                    No rush though
+                </p>
+            </div>
+            <div class="you">
+                <div>
+                    <h6>You</h6>
+                    <span class="date">Thursday 11:40am</span>
+                </div>
+                <p class="message-text">
+                    Awesome thanks! I'll book at this today.
+                </p>
+            </div>
+            <div class="current-user">
+                <img class="avatar" alt="Avatar" src="./assets/Avatar-chat.png" />
+                <div>
+                    <h6>Mollie Hall</h6>
+                </div>
+                <p class="message-text">
+                    ...
+                </p>
+            </div>
+            <div class="message-block">
+                <textarea name="message"></textarea>
+                <div class="textarea-controls">
+                    <button>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.6665 11.6665C6.6665 11.6665 7.9165 13.3332 9.99984 13.3332C12.0832 13.3332 13.3332 11.6665 13.3332 11.6665M7.49984 7.49984H7.50817M12.4998 7.49984H12.5082M18.3332 9.99984C18.3332 14.6022 14.6022 18.3332 9.99984 18.3332C5.39746 18.3332 1.6665 14.6022 1.6665 9.99984C1.6665 5.39746 5.39746 1.6665 9.99984 1.6665C14.6022 1.6665 18.3332 5.39746 18.3332 9.99984Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                    </button>
+                    <button>
+                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.99984 8.8335C2.46007 8.8335 2.83317 8.4604 2.83317 8.00016C2.83317 7.53992 2.46007 7.16683 1.99984 7.16683C1.5396 7.16683 1.1665 7.53992 1.1665 8.00016C1.1665 8.4604 1.5396 8.8335 1.99984 8.8335Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1.99984 3.00016C2.46007 3.00016 2.83317 2.62707 2.83317 2.16683C2.83317 1.70659 2.46007 1.3335 1.99984 1.3335C1.5396 1.3335 1.1665 1.70659 1.1665 2.16683C1.1665 2.62707 1.5396 3.00016 1.99984 3.00016Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1.99984 14.6668C2.46007 14.6668 2.83317 14.2937 2.83317 13.8335C2.83317 13.3733 2.46007 13.0002 1.99984 13.0002C1.5396 13.0002 1.1665 13.3733 1.1665 13.8335C1.1665 14.2937 1.5396 14.6668 1.99984 14.6668Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                    </button>
+                    <button class="submit-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside class="profile">
+        <img src="./assets/Big-avatar.png" alt="Avatar" />
+        <h2>Mollie Hall</h2>
+        <span>mollie@hotmail.com</span>
+        <div class="skills">
+            <span>UX Design</span>
+            <span>Product Design</span>
+            <span>Webflow</span>
+            <button>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z" fill="#F2F4F7"/>
+                    <path d="M10 6.5V13.5M6.5 10H13.5" stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+        </div>
+        <div class="row">
+            <button>Add to project</button>
+            <button>View projects</button>
+        </div>
+        <section class="about">
+            <h5>About</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatibus et doloribus fuga ea ratione.</p>
+        </section>
+        <section class="experience">                
+            <div class="company-info">
+                <img src="assets/Company-logo1.svg" alt="Company 1 Logo" />
+                <div>
+                    <h5>Lead Product Designer</h5>
+                    <span>Layer</span>
+                    <span class="date">May 2020 - Present</span>
+                </div>
+            </div>
+            <div class="company-info">
+                <img src="assets/Company-logo2.svg" alt="Company 2 Logo" />
+                <div>
+                    <h5>UX Designer</h5>
+                    <span>Sysdm</span>
+                    <span class="date">May 2012 - 2020</span>
+                </div>
+            </div>
+            <div class="company-info">
+                <img src="assets/Company-logo3.svg" alt="Company 3 Logo" />
+                <div>
+                    <h5>Visual Designer</h5>
+                    <span>Catalog</span>
+                    <span class="date">May 2011 - 2012</span>
+                </div>
+            </div>
+        </section>
+    </aside>
+</body>
+</html>
