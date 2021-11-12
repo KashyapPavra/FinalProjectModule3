@@ -116,6 +116,10 @@ input {
 	display: flex;
 }
 
+.footer__line-break {
+	margin: 1rem 0;
+}
+
 .footer__header-actions {
 	margin-left: auto;
 }
