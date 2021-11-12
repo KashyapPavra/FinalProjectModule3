@@ -53,20 +53,22 @@
 						</p>
 					</article>
 				</section>
-				<article class="users">
-					<header class="users__title">We’re changing the game</header>
-					<figure class="users__figure">
+				<article class="feature-users">
+					<header class="feature-users__title">We’re changing the game</header>
+					<figure class="feature-users__figure">
 						<img src="assets/featuresLogo.png" alt="Logo" />
 					</figure>
 				</article>
 			</section>
 			<!-- 7th section -->
 			<section class="post">
-				<header class="post__header">
-					<span class="post__title--sm">Our blog</span>
-					<button class="button button--primary">View all posts</button>
-					<h1 class="post__title">Latest blog posts</h1>
-					<p class="post__title--md">Tool and strategies modern teams need to help their companies grow.</p>
+				<header class="posts__header">
+					<div class="posts__header__wrapper">
+						<span class="posts__title--sm">Our blog</span>
+						<button class="button button--primary">View all posts</button>
+					</div>
+					<h1 class="posts__title">Latest blog posts</h1>
+					<p class="posts__title--md">Tool and strategies modern teams need to help their companies grow.</p>
 				</header>
 				<section class="posts">
 					<article class="post">
@@ -76,7 +78,7 @@
 						</figure>
 						<header class="post__header">
 							<h2 class="post__title">UX review presentations</h2>
-							<img src="./assets/upArrow.png" alt="click here" class="arrow" />
+							<img src="./assets/upArrow.png" alt="click here" class="post__action" />
 						</header>
 						<p class="post__content">
 							How do you create compelling presentations that wow your colleagues and impress your managers?
@@ -85,8 +87,10 @@
 							<figure class="post__footer__figure">
 								<img class="post__footer__avatar" src="./assets/post12.png" alt="Avatar" />
 							</figure>
-							<span class="post__footer__title">Olivia Rhye</span>
-							<p class="post__footer__date">20 Jan 2022</p>
+							<div class="avatar__wrapper">
+								<span class="post__footer__title">Olivia Rhye</span>
+								<p class="post__footer__date">20 Jan 2022</p>
+							</div>
 						</div>
 					</article>
 					<article class="post">
@@ -96,7 +100,7 @@
 						</figure>
 						<header class="post__header">
 							<h2 class="post__title">Migrating to Linear 101</h2>
-							<img src="./assets/upArrow.png" alt="click here" class="arrow" />
+							<img src="./assets/upArrow.png" alt="click here" class="post__action" />
 						</header>
 						<p class="post__content">
 							Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.
@@ -105,8 +109,10 @@
 							<figure class="post__footer__figure">
 								<img class="post__footer__avatar" src="./assets/post22.png" alt="avatar" />
 							</figure>
-							<span class="post__footer__title">Phoenix Baker</span>
-							<p class="post__footer__date">19 Jan 2022</p>
+							<div class="avatar__wrapper">
+								<span class="post__footer__title">Phoenix Baker</span>
+								<p class="post__footer__date">19 Jan 2022</p>
+							</div>
 						</div>
 					</article>
 					<article class="post">
@@ -116,7 +122,7 @@
 						</figure>
 						<header class="post__header">
 							<h2 class="post__title">Building your API Stack</h2>
-							<img src="./assets/upArrow.png" alt="click here" class="arrow" />
+							<img src="./assets/upArrow.png" alt="click here" class="post__action" />
 						</header>
 						<p class="post__content">
 							The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.
@@ -125,8 +131,10 @@
 							<figure class="post__footer__figure">
 								<img class="post__footer__avatar" src="./assets/post32.png" alt="avatar" />
 							</figure>
-							<span class="post__footer__title">Lana Steiner</span>
-							<p class="post__footer__date">18 Jan 2022</p>
+							<div class="avatar__wrapper">
+								<span class="post__footer__title">Lana Steiner</span>
+								<p class="post__footer__date">18 Jan 2022</p>
+							</div>
 						</div>
 					</article>
 				</section>
@@ -186,8 +194,10 @@
 			<footer>
 				<header class="footer__header">
 					<h1 class="footer__title">Start your 30-day free trial</h1>
-					<button class="button button--secondary">Learn more</button>
-					<button class="button button--primary">Get started</button>
+					<div class="footer__header-actions">
+						<button class="button button--secondary">Learn more</button>
+						<button class="button button--primary">Get started</button>
+					</div>
 				</header>
 				<p class="footer__stats">Join over 4,000+ startups already growing with Untitled.</p>
 				<hr class="footer__line-break" />
