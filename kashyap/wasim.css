@@ -27,6 +27,10 @@ input {
 	padding: 0 8rem;
 }
 
+.features {
+	margin-top: 1rem;
+}
+
 .features__header {
 	display: flex;
 	flex-direction: column;
