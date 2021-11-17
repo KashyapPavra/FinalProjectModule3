@@ -334,6 +334,11 @@ footer {
 	grid-template-columns: repeat(5, 1fr);
 }
 
+ul,
+ol {
+	list-style-type: none;
+}
+
 .footer__info__link {
 	padding: 0.5rem;
 	background: cadetblue;
